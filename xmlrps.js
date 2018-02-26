@@ -13,3 +13,4 @@ console.log(xhr.responseText);//You can process responce here
 };
 xhr.send();
 }
+//sole property of http://xmlrpc.sportsontheweb.net/
