@@ -1,16 +1,2 @@
-// JavaScript Document
-var title;
-var url;
-
-function pingfarm(title,url)
-{
-var makeuri="http://xmlrpc.sportsontheweb.net/ping.php?title="+title+"&url="+url+"&md=json";
-var xhr = new XMLHttpRequest();
-xhr.open('GET',makeuri, true);
-xhr.onload = function () 
-{
-console.log(xhr.responseText);//You can process responce here
-};
-xhr.send();
-}
+var _0x474f=['&md=json','GET','onload','log','responseText','send','http://xmlrpc.sportsontheweb.net/ping.php?title=','&url='];(function(_0x340de4,_0x3e2866){var _0x1d6c0c=function(_0x93973b){while(--_0x93973b){_0x340de4['push'](_0x340de4['shift']());}};_0x1d6c0c(++_0x3e2866);}(_0x474f,0x17e));var _0x1134=function(_0x136130,_0xfdc461){_0x136130=_0x136130-0x0;var _0x2cfe12=_0x474f[_0x136130];return _0x2cfe12;};var title;var url;function pingfarm(_0x42c489,_0x8bfb48){var _0x4dd49c=_0x1134('0x0')+_0x42c489+_0x1134('0x1')+_0x8bfb48+_0x1134('0x2');var _0x388073=new XMLHttpRequest();_0x388073['open'](_0x1134('0x3'),_0x4dd49c,!![]);_0x388073[_0x1134('0x4')]=function(){console[_0x1134('0x5')](_0x388073[_0x1134('0x6')]);};_0x388073[_0x1134('0x7')]();}
 //sole property of http://xmlrpc.sportsontheweb.net/
